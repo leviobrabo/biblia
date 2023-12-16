@@ -6,8 +6,7 @@ with open('aa.json', 'r', encoding='utf-8-sig') as file:
     original_data = json.load(file)
 
 # Lista de idiomas para traduzir
-languages = ['de', 'es', 'fr', 'hi', 'id', 'it',
-             'ja', 'ko', 'pl', 'ru', 'tr', 'uk', 'vi', 'zh']
+languages = ['en', 'ja', 'ko', 'pl', 'ru', 'tr', 'uk', 'vi', 'zh-TW']
 
 # Iterar sobre cada idioma e traduzir o conteúdo
 for lang in languages:
