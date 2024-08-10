@@ -35,7 +35,7 @@ for lang in languages:
         }
         translated_data.append(translated_item)
 
-    # Escrever o JSON traduzido em um novo arquivo para cada idioma
+    
     output_file_name = f'aa-{lang}.json'
     with open(output_file_name, 'w', encoding='utf-8') as output_file:
         json.dump(translated_data, output_file, ensure_ascii=False, indent=2)
